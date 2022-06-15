@@ -1,0 +1,86 @@
+.App {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(1, 59, 1);
+  margin: 66px;
+
+}
+
+.btn-group {
+  color: black;
+  background-color: brown;
+  font-size: 23px;
+  width: 180px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+
+}
+
+.altitude {
+  background-color: #538504;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  width: 100px;
+  flex-direction: column;
+  display: block;
+  height: 100px;
+  margin-left: 1cm;
+}
+
+.one {
+  height: 220px;
+  width: 220px;
+  background-color: gray;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 1cm;
+  display: flex;
+  justify-content: center;
+  transition: transform 5s;
+  transform: rotate(0deg);
+}
+
+.two {
+  height: 220px;
+  width: 220px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 7cm;
+
+}
+
+.arrow {
+  color: red;
+  margin-top: 4%;
+  font-size: 120px;
+  margin-left: 0cm;
+  transform: rotate(-0deg);
+}
+
+.zero {
+  position: absolute;
+}
+
+.tishim {
+  position: absolute;
+  margin-top: 5cm;
+}
+
+.shmonim {
+  position: absolute;
+  margin-left: 5cm;
+  margin-top: 2.5cm;
+}
+
+.shivim {
+  position: absolute;
+  margin-right: 5cm;
+  margin-top: 2.5cm;
+
+}
